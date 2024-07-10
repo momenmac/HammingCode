@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1006.0" prefWidth="710.0" stylesheets="@Stylesheet.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.hammingcode.Controller2">
+   <children>
+      <TextField fx:id="error" editable="false" layoutX="249.0" layoutY="904.0" prefHeight="57.0" prefWidth="393.0" styleClass="texField" />
+      <Label alignment="CENTER" layoutX="6.0" layoutY="43.0" prefHeight="63.0" prefWidth="698.0" style="-fx-font-size: 35px; -fx-font-size: 50px;" text="Hamming Code" />
+      <TextArea fx:id="recivedTextArea" editable="false" layoutX="67.0" layoutY="190.0" prefHeight="156.0" prefWidth="572.0" style="-fx-font-size: 20px;" styleClass="textArea" wrapText="true" />
+      <Label layoutX="70.0" layoutY="128.0" prefHeight="63.0" prefWidth="360.0" style="-fx-font-size: 35px;" text="Recived Code" />
+      <Label layoutX="72.0" layoutY="711.0" prefHeight="63.0" prefWidth="360.0" style="-fx-font-size: 35px;" />
+      <TextArea fx:id="BitsTextedArea" editable="false" layoutX="66.0" layoutY="484.0" prefHeight="140.0" prefWidth="572.0" style="-fx-font-size: 20px;" styleClass="textArea" wrapText="true" />
+      <Label layoutX="69.0" layoutY="424.0" prefHeight="63.0" prefWidth="360.0" style="-fx-font-size: 35px;" text="Bits" />
+      <TextArea fx:id="convertMessage" editable="false" layoutX="70.0" layoutY="715.0" prefHeight="140.0" prefWidth="572.0" style="-fx-font-size: 20px;" styleClass="textArea" wrapText="true" />
+      <Label layoutX="73.0" layoutY="655.0" prefHeight="63.0" prefWidth="360.0" style="-fx-font-size: 35px;" text="Converted Message" />
+      <Label layoutX="82.0" layoutY="901.0" prefHeight="63.0" prefWidth="166.0" style="-fx-font-size: 35px;" text="Error%" />
+      <TextArea fx:id="errorIndexes" editable="false" layoutX="296.0" layoutY="365.0" prefHeight="21.0" prefWidth="341.0" style="-fx-font-size: 20px;" styleClass="textArea" />
+      <Label layoutX="69.0" layoutY="366.0" prefHeight="63.0" prefWidth="222.0" style="-fx-font-size: 35px;" text="Error indexes" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,51 @@
+.texField{
+    -fx-background-color: white;
+    -fx-background-radius: 16px;
+    -fx-border-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #d12e7e, #6e1569);
+    -fx-border-radius: 16px;
+    /*-fx-padding: 5 30 5 10;*/
+    -fx-text-fill: black;
+    -fx-font-size: 18px;
+}
+.textArea .content {
+    -fx-background-color: white;
+    -fx-border-radius: 10px;
+    -fx-padding: 5 30 5 10;
+    -fx-text-fill: black;
+    -fx-font-size: 18px;
+}
+.textArea {
+    -fx-background-color: white;
+    -fx-border-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #d12e7e, #6e1569);
+    -fx-text-fill: black;
+    -fx-font-size: 18px;
+}
+
+.pink{
+    -fx-background-color: #C4166EFF ;
+    -fx-text-fill: white;
+    -fx-font-size: 19;
+    -fx-font-weight: bold;
+    -fx-background-radius: 16 16 16 16; /* Top-right corner radius */
+
+}
+
+.pink:hover{
+    -fx-background-color: #830e4a;
+    -fx-text-fill: white;
+    -fx-font-size: 19;
+    -fx-font-weight: bold;
+    -fx-background-radius: 16 16 16 16; /* Top-right corner radius */
+
+}
+
+
+.ChoicesBox{
+    -fx-background-color: white;
+    -fx-background-radius: 14px;
+    -fx-border-color: linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #d12e7e, #6e1569);
+    -fx-border-radius: 14px;
+    -fx-padding: 2 2 2 2; /* Adjust padding for text and arrow */
+    -fx-text-fill: white; /* Text color for ChoiceBox */
+    -fx-font-size: 18px;
+}
